@@ -42,17 +42,23 @@ function Firstpage() {
 
           <div className="mt-8 flex flex-wrap gap-4">
 
-            <motion.button
-              whileHover={{
-                scale: 1.05,
-                boxShadow: "0px 15px 35px rgba(249,115,22,0.35)",
-              }}
-              whileTap={{ scale: 0.95 }}
-              className="flex items-center gap-2 rounded-2xl bg-gradient-to-r from-orange-500 to-red-500 px-6 sm:px-7 py-3 sm:py-4 text-white font-semibold shadow-xl"
-            >
-              Join Now
-              <ArrowRight size={18} />
-            </motion.button>
+        <a
+        href="https://wa.me/918693892209"
+        target="_blank"
+        rel="noopener noreferrer"
+        >
+        <motion.button
+            whileHover={{
+            scale: 1.05,
+            boxShadow: "0px 15px 35px rgba(249,115,22,0.35)",
+            }}
+            whileTap={{ scale: 0.95 }}
+            className="flex items-center gap-2 rounded-2xl bg-gradient-to-r from-orange-500 to-red-500 px-6 sm:px-7 py-3 sm:py-4 text-white font-semibold shadow-xl"
+        >
+            Join now 
+            <ArrowRight size={18} />
+        </motion.button>
+        </a>
 
             <motion.button
               whileHover={{ scale: 1.04 }}
